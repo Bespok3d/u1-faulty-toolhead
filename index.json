@@ -11,7 +11,7 @@
       "description": "Temporary recovery override for Snapmaker U1 error 0003-0523-0000-0002 when toolhead 1's thermistor is damaged and blocks boot. Remaps [extruder] sensor_pin to e0:PC5, raises max_temp and drops max_power so the dead sensor is ignored, and neutralizes the e0_nozzle_fan nozzle fan. Do not heat or print with toolhead 1 while this is enabled; disable it once the part is replaced. Per-toolhead and independent, so several can be enabled at once.",
       "tagline": "Boot the U1 with a damaged toolhead 1 thermistor.",
       "category": "tuning",
-      "channel": "stable",
+      "channel": "experiment",
       "publisher": "PLACEHOLDER",
       "printer_specific": true,
       "published_at": "2026-06-08",
@@ -26,7 +26,7 @@
       ],
       "conflicts": [],
       "doc_url": "https://github.com/Bespok3d/u1-faulty-toolhead/blob/main/faulty-toolhead-1/doc/README.md",
-      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/442616729",
+      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/442617300",
       "deps": []
     },
     {
@@ -36,7 +36,7 @@
       "description": "Temporary recovery override for Snapmaker U1 error 0003-0523-0000-0002 when toolhead 2's thermistor is damaged and blocks boot. Remaps [extruder1] sensor_pin to e1:PC5, raises max_temp and drops max_power so the dead sensor is ignored, and neutralizes the e1_nozzle_fan nozzle fan. Do not heat or print with toolhead 2 while this is enabled; disable it once the part is replaced. Per-toolhead and independent, so several can be enabled at once.",
       "tagline": "Boot the U1 with a damaged toolhead 2 thermistor.",
       "category": "tuning",
-      "channel": "stable",
+      "channel": "experiment",
       "publisher": "PLACEHOLDER",
       "printer_specific": true,
       "published_at": "2026-06-08",
@@ -51,7 +51,7 @@
       ],
       "conflicts": [],
       "doc_url": "https://github.com/Bespok3d/u1-faulty-toolhead/blob/main/faulty-toolhead-2/doc/README.md",
-      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/442616749",
+      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/442617312",
       "deps": []
     },
     {
@@ -61,7 +61,7 @@
       "description": "Temporary recovery override for Snapmaker U1 error 0003-0523-0000-0002 when toolhead 3's thermistor is damaged and blocks boot. Remaps [extruder2] sensor_pin to e2:PC5, raises max_temp and drops max_power so the dead sensor is ignored, and neutralizes the e2_nozzle_fan nozzle fan. Do not heat or print with toolhead 3 while this is enabled; disable it once the part is replaced. Per-toolhead and independent, so several can be enabled at once.",
       "tagline": "Boot the U1 with a damaged toolhead 3 thermistor.",
       "category": "tuning",
-      "channel": "stable",
+      "channel": "experiment",
       "publisher": "PLACEHOLDER",
       "printer_specific": true,
       "published_at": "2026-06-08",
@@ -76,7 +76,7 @@
       ],
       "conflicts": [],
       "doc_url": "https://github.com/Bespok3d/u1-faulty-toolhead/blob/main/faulty-toolhead-3/doc/README.md",
-      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/442616764",
+      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/442617324",
       "deps": []
     },
     {
@@ -86,7 +86,7 @@
       "description": "Temporary recovery override for Snapmaker U1 error 0003-0523-0000-0002 when toolhead 4's thermistor is damaged and blocks boot. Remaps [extruder3] sensor_pin to e3:PC5, raises max_temp and drops max_power so the dead sensor is ignored, and neutralizes the e3_nozzle_fan nozzle fan. Do not heat or print with toolhead 4 while this is enabled; disable it once the part is replaced. Per-toolhead and independent, so several can be enabled at once.",
       "tagline": "Boot the U1 with a damaged toolhead 4 thermistor.",
       "category": "tuning",
-      "channel": "stable",
+      "channel": "experiment",
       "publisher": "PLACEHOLDER",
       "printer_specific": true,
       "published_at": "2026-06-08",
@@ -101,7 +101,7 @@
       ],
       "conflicts": [],
       "doc_url": "https://github.com/Bespok3d/u1-faulty-toolhead/blob/main/faulty-toolhead-4/doc/README.md",
-      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/442616775",
+      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/442617338",
       "deps": []
     }
   ],
