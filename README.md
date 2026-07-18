@@ -14,6 +14,26 @@ the faulty toolhead while it is enabled, and remove it after repair.
 No scripts, no patches, no binaries. Config-include plugins; Klipper restarts on install.
 
 > Not yet verified on a physical U1.
+
+## Build locally
+
+Needs Node.js 20+. Builds run through the shared `Bespok3d/b3-builder` tool:
+
+```sh
+npm install github:Bespok3d/b3-builder
+npx b3-builder build --source ./faulty-toolhead-1 --atom-repo Bespok3d/u1-faulty-toolhead
+# -> dist/faulty-toolhead-1-<ver>.b3 + dist/faulty-toolhead-1.atom.json
+```
+
+Drop `--source` to build every plugin in the repo at once.
+
+## Releasing
+
+Bump a plugin's `manifest.json` `version` and push to `main`. CI runs the `Bespok3d/b3-builder`
+Action over the whole repo, which packs each `.b3`, cuts a release per plugin, assembles this repo's
+`index.json` sub-list as `U1 Faulty Toolhead Bypass`, and registers it in `Bespok3d/main-index`
+(`lists/<repo>.json`). Secret: `MAIN_INDEX_TOKEN` (contents:write on main-index). Signing deferred.
+
 ## Maintainership
 
 These plugins are published and maintained by the Bespok3d org, and several of them repackage or
