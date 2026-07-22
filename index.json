@@ -27,7 +27,7 @@
       "conflicts": [],
       "changelog_url": "faulty-toolhead-1/doc/CHANGELOG.md",
       "doc_url": "https://github.com/Bespok3d/u1-faulty-toolhead/blob/main/faulty-toolhead-1/doc/README.md",
-      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/486304568",
+      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/486311996",
       "deps": []
     },
     {
@@ -53,7 +53,7 @@
       "conflicts": [],
       "changelog_url": "faulty-toolhead-2/doc/CHANGELOG.md",
       "doc_url": "https://github.com/Bespok3d/u1-faulty-toolhead/blob/main/faulty-toolhead-2/doc/README.md",
-      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/486304602",
+      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/486312024",
       "deps": []
     },
     {
@@ -79,7 +79,7 @@
       "conflicts": [],
       "changelog_url": "faulty-toolhead-3/doc/CHANGELOG.md",
       "doc_url": "https://github.com/Bespok3d/u1-faulty-toolhead/blob/main/faulty-toolhead-3/doc/README.md",
-      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/486304633",
+      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/486312048",
       "deps": []
     },
     {
@@ -105,7 +105,7 @@
       "conflicts": [],
       "changelog_url": "faulty-toolhead-4/doc/CHANGELOG.md",
       "doc_url": "https://github.com/Bespok3d/u1-faulty-toolhead/blob/main/faulty-toolhead-4/doc/README.md",
-      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/486304665",
+      "download_url": "https://api.github.com/repos/Bespok3d/u1-faulty-toolhead/releases/assets/486312062",
       "deps": []
     }
   ],
