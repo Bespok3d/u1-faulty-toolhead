@@ -1,5 +1,10 @@
 # u1-faulty-toolhead
 
+[![licence](https://img.shields.io/badge/licence-GPL--3.0-blue)](LICENSE)
+[![release](https://img.shields.io/github/v/release/Bespok3d/u1-faulty-toolhead)](https://github.com/Bespok3d/u1-faulty-toolhead/releases)
+![printer](https://img.shields.io/badge/printer-Snapmaker%20U1-informational)
+![stock firmware](https://img.shields.io/badge/stock%20firmware-no%20flashing-brightgreen)
+
 A co-repo of recovery Bespok3d plugins for the Snapmaker U1. When a toolhead's thermistor fails the
 printer raises error `0003-0523-0000-0002` and will not boot. Each plugin here drops a single Klipper
 config override that ignores the dead sensor for one toolhead, so the remaining toolheads stay usable
@@ -13,7 +18,7 @@ the faulty toolhead while it is enabled, and remove it after repair.
 
 No scripts, no patches, no binaries. Config-include plugins; Klipper restarts on install.
 
-> Not yet verified on a physical U1.
+> Installed and running on a Snapmaker U1.
 
 ## Build locally
 
@@ -42,3 +47,28 @@ build on upstream source material. If you own the source material a plugin is ba
 rather manage it yourself, you are welcome to contact the org to claim it back. The one condition is
 that it stays actively maintained: a claimed plugin left to rot will be reclaimed so users are never
 stranded on an abandoned package.
+
+## Licence
+
+Copyright (C) 2026 unlucio and the Bespok3d contributors
+
+This repo ships code from other projects offered under version 3 of the GNU General Public License,
+with no option to use a later version, so version 3 of that licence covers every file in this repo.
+
+This program is free software: you can redistribute it and/or modify it under the terms of version 3
+of the GNU General Public License as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not,
+see <https://www.gnu.org/licenses/>. The full text is in [LICENSE](LICENSE).
+
+Bespok3d's own code elsewhere is AGPL-3.0-or-later. One licence covering this whole repo is a clarity
+choice, so that nobody has to work out which file carries which terms. Version 3 of the GPL and
+version 3 of the AGPL may be combined in a single work, and section 13 of each licence says so; what
+cannot happen is code offered under version 3 of the GPL alone being re-offered under the AGPL.
+
+Bespok3d is a project of the Bespok3d Organisation, which is not a legal entity. Copyright is held by
+the individual authors named above.
