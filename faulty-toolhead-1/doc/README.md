@@ -22,4 +22,4 @@ For toolhead 1 (`[extruder]` + `[heater_fan e0_nozzle_fan]`):
 
 Source: Snapmaker Wiki, "Bypass a faulty toolhead".
 
-> Not yet verified on a physical U1.
+> Installed and running on a Snapmaker U1.
