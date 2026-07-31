@@ -6,7 +6,7 @@
   "description": "Temporary recovery override for Snapmaker U1 error 0003-0523-0000-0002 when toolhead 4's thermistor is damaged and blocks boot. Remaps [extruder3] sensor_pin to e3:PC5, raises max_temp and drops max_power so the dead sensor is ignored, and neutralizes the e3_nozzle_fan nozzle fan. Do not heat or print with toolhead 4 while this is enabled; disable it once the part is replaced. Per-toolhead and independent, so several can be enabled at once.",
   "tagline": "Boot the U1 with a damaged toolhead 4 thermistor.",
   "category": "tuning",
-  "channel": "experiment",
+  "channel": "testing",
   "printer_specific": true,
   "changelog": "doc/CHANGELOG.md",
   "published_at": "2026-06-08",
