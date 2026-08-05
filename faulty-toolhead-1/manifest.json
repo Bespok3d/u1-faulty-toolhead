@@ -42,5 +42,7 @@
     ]
   },
   "conflict_resolutions": [],
-  "files": []
+  "files": [],
+  "license": "https://github.com/Bespok3d/u1-faulty-toolhead/blob/dev/faulty-toolhead-1/doc/LICENSE",
+  "attributions": "# Attributions - faulty-toolhead-1\n\n**Plugin author:** paxx12 (Extended Firmware overlay `34-feature-faulty-toolhead`), packaged by Bespok3d\n\nTakes toolhead 1 out of service.\n\n| Upstream project | Author | Licence | Needed at runtime | Code ships in this package |\n| --- | --- | --- | --- | --- |\n| Extended Firmware overlay `34-feature-faulty-toolhead` | paxx12 | GPL-3.0 | no | yes |\n\nThe Klipper config in this package is the `faulty_toolhead1.cfg` tweak from the Extended Firmware overlay\n`34-feature-faulty-toolhead` (paxx12), GPL-3.0. It ships here unchanged, comments and all.\n"
 }
