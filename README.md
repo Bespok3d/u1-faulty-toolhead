@@ -32,6 +32,9 @@ npx b3-builder build --source ./faulty-toolhead-1 --atom-repo Bespok3d/u1-faulty
 
 Drop `--source` to build every plugin in the repo at once.
 
+Writing a plugin of your own? Start at the plugin documentation:
+[Bespok3d/b3-builder/doc](https://github.com/Bespok3d/b3-builder/tree/main/doc).
+
 ## Releasing
 
 Bump a plugin's `manifest.json` `version` and push the tag `plugin-<name>-v<version>` naming that
